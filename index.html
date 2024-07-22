@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Captação de Informações</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="title">
+        <h1>Sistema de Captação de Informações</h1>
+    </div>
+    <form id="form">
+        <label for="unidade">Selecione uma unidade:</label>
+        <select id="unidade" name="unidade">
+            <option value="">Selecione uma unidade</option>
+            <option value="unidade1">Unidade 1</option>
+            <option value="unidade2">Unidade 2</option>
+            <option value="unidade3">Unidade 3</option>
+            <option value="unidade4">Unidade 4</option>
+        </select>
+        <div id="form-content">
+            <!-- Conteúdo do formulário será renderizado aqui -->
+        </div>
+        <label for="nome">Selecione o contrato:</label>
+        <select id="nome" name="nome">
+            <option value="">Selecione</option>
+            <option value="CG SECITECE 01">CG SECITECE 01</option>
+            <option value="VIRANDO O JOGO">VIRANDO O JOGO</option>
+        </select>
+
+<div id="unidade-container"></div>
+
+<div id="formulario-container"></div>
+        <button type="submit">Enviar</button>
+
+    </form>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
